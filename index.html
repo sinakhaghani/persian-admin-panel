@@ -1,101 +1,308 @@
 <!doctype html>
 <html lang="en">
-  <head>
-  	<title>Sidebar 07</title>
+<head>
+    <title>Sidebar 07</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-		
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/sidebar.css">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" rel="stylesheet">
 
-  </head>
-  <body dir="rtl">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/box-statistics.css">
+    <link rel="stylesheet" href="css/calendar.css">
 
-		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar" class="active">
-				<h6><a href="index.html" class="logo">Admin</a></h6>
-        <ul class="list-unstyled components mb-5">
-          <li class="active">
-            <a href="#"><span class="fa fa-home"></span> خانه </a>
-          </li>
-          <li>
-              <a href="#"><span class="fa fa-user"></span> درباره ما </a>
-          </li>
-          <li>
-            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" >  <span class="fa fa-sticky-note"></span>  وبلاگ <i class='fa fa-angle-down arrow-menu'></i> </a>
-            <ul class="collapse list-unstyled" id="homeSubmenu">
-              <li>
-                <a href="#">صفحه 1</a>
-              </li>
-              <li>
-                <a href="#">صفحه 2</a>
-              </li>
-              <li>
-                <a href="#">صفحه 3</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-cogs"></span> خدمات </a>
-          </li>
-          <li>
-            <a href="#"><span class="fa fa-paper-plane"></span> ارتباط با ما </a>
-          </li>
+</head>
+<body dir="rtl">
+
+<div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar" class="active">
+
+        <ul class="list-unstyled position-fixed components mb-5 mt-5">
+            <li class="active">
+                <a href="#"><span class="fa fa-home"></span> داشبورد </a>
+            </li>
+            <li>
+                <a href="#"><span class="fa fa-user"></span> کاربرها </a>
+            </li>
+            <li>
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"> <span
+                        class="fa fa-sticky-note"></span> وبلاگ <i class='fa fa-angle-down arrow-menu'></i> </a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#">صفحه 1</a>
+                    </li>
+                    <li>
+                        <a href="#">صفحه 2</a>
+                    </li>
+                    <li>
+                        <a href="#">صفحه 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><span class="fa fa-cogs"></span> خدمات </a>
+            </li>
+            <li>
+                <a href="#"><span class="fa fa-paper-plane"></span> ارتباط با ما </a>
+            </li>
         </ul>
+    </nav>
 
-        <div class="footer">
-        	<p>
-					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a class="text-black-50" href="https://sinakhaghani.ir" target="_blank">Sina Khaghani</a>
-					</p>
-        </div>
-    	</nav>
-
-        <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5">
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+            <div class="container-fluid">
 
-            <button type="button" id="sidebarCollapse" class="btn btn-primary">
-              <i class="fa fa-bars"></i>
-              <span class="sr-only">منو</span>
-            </button>
-            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
+                <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                    <i class="fa fa-bars"></i>
+                    <span class="sr-only">منو</span>
+                </button>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">خانه</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">درباره ما</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">پروفایل</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ارتباط با ما</a>
-                </li>
-              </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">خانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">درباره ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">پروفایل</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ارتباط با ما</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </nav>
 
-        <h2 class="mb-4">صفحه اصلی</h2>
-        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
-        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
-      </div>
-		</div>
+        <h2 class="mb-4">داشبورد</h2>
+        <div class="main-content">
+            <div class="header background-theme pb-8 pt-5 pt-md-8">
+                <div class="container-fluid">
+                    <h2 class="mb-5 text-dark">آمار سایت</h2>
+                    <div class="header-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-6">
+                                <div class="card card-stats mb-4 mb-xl-0">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">ترافیک</h5>
+                                                <span class="h2 font-weight-bold mb-0">350,897</span>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-danger text-white rounded-circle shadow">
+                                                    <i class="fas fa-chart-bar"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3 mb-0 text-muted text-sm">
+                                            <span class="text-nowrap">از ماه گذشته</span>
+                                            <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6">
+                                <div class="card card-stats mb-4 mb-xl-0">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">فروش</h5>
+                                                <span class="h2 font-weight-bold mb-0">2,356</span>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-warning text-white rounded-circle shadow">
+                                                    <i class="fas fa-chart-pie"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3 mb-0 text-muted text-sm">
+                                            <span class="text-nowrap">از هفته گذشته</span>
+                                            <span class="text-danger mr-2"><i
+                                                    class="fas fa-arrow-down"></i> 3.48%</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6">
+                                <div class="card card-stats mb-4 mb-xl-0">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">کاربران جدید</h5>
+                                                <span class="h2 font-weight-bold mb-0">924</span>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-yellow text-white rounded-circle shadow">
+                                                    <i class="fas fa-users"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3 mb-0 text-muted text-sm">
+                                            <span class="text-nowrap">از روز گذشته</span>
+                                            <span class="text-warning mr-2"><i
+                                                    class="fas fa-arrow-down"></i> 1.10%</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6">
+                                <div class="card card-stats mb-4 mb-xl-0">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title text-uppercase text-muted mb-0">بازدهی</h5>
+                                                <span class="h2 font-weight-bold mb-0">49,65%</span>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape bg-info text-white rounded-circle shadow">
+                                                    <i class="fas fa-percent"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3 mb-0 text-muted text-sm">
+                                            <span class="text-nowrap">از 3 ماه گذشته</span>
+                                            <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 12%</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page content -->
+        </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+        <div class="main-content mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="elegant-calencar d-md-flex">
+                        <div class="wrap-header d-flex align-items-center">
+                            <p id="reset">reset</p>
+                            <div id="header" class="p-0">
+                                <div class="pre-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-left"></i></div>
+                                <div class="head-info">
+                                    <div class="head-day">19</div>
+                                    <div class="head-month">December - 2022</div>
+                                </div>
+                                <div class="next-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="calendar-wrap">
+                            <table id="calendar">
+                                <thead>
+                                <tr>
+                                    <th>Sun</th>
+                                    <th>Mon</th>
+                                    <th>Tue</th>
+                                    <th>Wed</th>
+                                    <th>Thu</th>
+                                    <th>Fri</th>
+                                    <th>Sat</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td id="disabled" class=""></td>
+                                    <td id="disabled" class=""></td>
+                                    <td id="disabled" class=""></td>
+                                    <td id="disabled" class=""></td>
+                                    <td id="" class="">1</td>
+                                    <td id="" class="">2</td>
+                                    <td id="" class="">3</td>
+                                </tr>
+                                <tr>
+                                    <td id="" class="">4</td>
+                                    <td id="" class="">5</td>
+                                    <td id="" class="selected">6</td>
+                                    <td id="" class="">7</td>
+                                    <td id="" class="">8</td>
+                                    <td id="" class="">9</td>
+                                    <td id="" class="">10</td>
+                                </tr>
+                                <tr>
+                                    <td id="" class="">11</td>
+                                    <td id="" class="">12</td>
+                                    <td id="" class="">13</td>
+                                    <td id="" class="">14</td>
+                                    <td id="" class="">15</td>
+                                    <td id="" class="">16</td>
+                                    <td id="" class="">17</td>
+                                </tr>
+                                <tr>
+                                    <td id="" class="">18</td>
+                                    <td id="today" class="">19</td>
+                                    <td id="" class="">20</td>
+                                    <td id="" class="">21</td>
+                                    <td id="" class="">22</td>
+                                    <td id="" class="">23</td>
+                                    <td id="" class="">24</td>
+                                </tr>
+                                <tr>
+                                    <td id="" class="">25</td>
+                                    <td id="" class="">26</td>
+                                    <td id="" class="">27</td>
+                                    <td id="" class="">28</td>
+                                    <td id="" class="">29</td>
+                                    <td id="" class="">30</td>
+                                    <td id="" class="">31</td>
+                                </tr>
+                                <tr>
+                                    <td id="disabled" class=""></td>
+                                    <td id="disabled" class=""></td>
+                                    <td id="disabled" class=""></td>
+                                    <td id="disabled" class=""></td>
+                                    <td id="disabled" class=""></td>
+                                    <td id="disabled" class=""></td>
+                                    <td id="disabled" class=""></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content mt-4">
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه
+                و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
+                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها،
+                و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل
+                دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه
+                و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
+                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها،
+                و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل
+                دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+        </div>
+
+
+
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/calendar.js"></script>
+</body>
 </html>
