@@ -652,9 +652,3 @@ p {
     font-weight: 300;
     line-height: 1.7;
 }
-
-.background-theme{
-    background-image: -moz-linear-gradient(0deg, #3e64ff 0%, #72c4cd 100%);
-    background-image: -webkit-linear-gradient(0deg, #3e64ff 0%, #72c4cd 100%);
-    background-image: -ms-linear-gradient(0deg, #3e64ff 0%, #72c4cd 100%);
-}

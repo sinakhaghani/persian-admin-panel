@@ -192,12 +192,14 @@
                         <div class="wrap-header d-flex align-items-center">
                             <p id="reset">reset</p>
                             <div id="header" class="p-0">
-                                <div class="pre-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-left"></i></div>
+                                <div class="pre-button d-flex align-items-center justify-content-center"><i
+                                        class="fa fa-chevron-left"></i></div>
                                 <div class="head-info">
                                     <div class="head-day">19</div>
                                     <div class="head-month">December - 2022</div>
                                 </div>
-                                <div class="next-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i></div>
+                                <div class="next-button d-flex align-items-center justify-content-center"><i
+                                        class="fa fa-chevron-right"></i></div>
                             </div>
                         </div>
                         <div class="calendar-wrap">
@@ -274,6 +276,45 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header background-color-white">
+                            نوار پیشرفت
+                        </div>
+                        <div class="card-body">
+                            <span class="title_tech_stack">عنوان 1</span>
+                            <div class="progress border border-gray col-md-12 col-xl-12 col-sm-12 pr-0 pl-0">
+                                <div class="progress-bar background-theme" role="progressbar" aria-valuenow="95"
+                                     aria-valuemin="0" aria-valuemax="100">95
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <span class="title_tech_stack">عنوان 2</span>
+                            <div class="progress border border-gray col-md-12 col-xl-12 col-sm-12 pr-0 pl-0">
+                                <div class="progress-bar background-theme" role="progressbar" aria-valuenow="30"
+                                     aria-valuemin="0" aria-valuemax="100">30
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <span class="title_tech_stack">عنوان 3</span>
+                            <div class="progress border border-gray col-md-12 col-xl-12 col-sm-12 pr-0 pl-0">
+                                <div class="progress-bar background-theme" role="progressbar" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100">80
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="main-content mt-4">
+            <div class="row">
+                <div class="col-md-6 col-xl-6 col-sm-12">
                     <div class="col-12 shadow p-1 mb-5 bg-white rounded">
                         <div class="row">
                             <div class="col-md-12 col-xl-12 col-sm-10">
@@ -284,60 +325,63 @@
 
 
                 </div>
-            </div>
-        </div>
-        <div class="main-content mt-4">
-            <div class="col-md-6 col-xl-6 col-sm-12">
-                <div class="card">
-                    <div class="card-header">
-                        نوار پیشرفت
-                    </div>
-                    <div class="card-body">
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                        </div>
-                    </div>
-
-                    <div class="card-body">
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                        </div>
-                    </div>
-
+                <div class="col-md-6 col-xl-6 col-sm-12">
+                    <canvas id="line-chart" class="col-12"></canvas>
                 </div>
             </div>
+        </div>
 
+        <div class="main-content mt-4">
+            <div class="row">
+                <div class="col-md-6 col-xl-6 col-sm-12">
+                    <canvas id="pie-chart" class="col-12"></canvas>
+                </div>
+                <div class="col-md-6 col-xl-6 col-sm-12">
+                    <canvas id="doughnut-chart" class="col-12"></canvas>
+                </div>
+            </div>
         </div>
         <div class="main-content mt-4">
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
-                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
-                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+                متون
+                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                جامعه
                 و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
-                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها،
-                و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل
+                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه
+                راهکارها،
+                و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته
+                اهل
                 دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
-                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
-                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+                متون
+                بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                جامعه
                 و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
-                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها،
-                و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل
+                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه
+                راهکارها،
+                و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته
+                اهل
                 دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
         </div>
-
 
 
     </div>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="js/jquery.min.js"></script>
-<script src="js/popper.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/progress.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/popper.js"></script>
 <script src="js/main.js"></script>
 <script src="js/calendar.js"></script>
-<script src="js/chart/bar.js"></script>
-<script src="js/progress.js"></script>
+<script src="js/chart.js"></script>
+<script>
+
+</script>
 
 </body>
 </html>
