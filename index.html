@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/box-statistics.css">
     <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/persian-datepicker.min.css">
 
 </head>
 <body dir="rtl">
@@ -53,7 +54,7 @@
     <!-- Page Content  -->
     <div id="content" class="p-4 p-md-5">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
             <div class="container-fluid">
 
                 <button type="button" id="sidebarCollapse" class="btn btn-primary">
@@ -81,6 +82,10 @@
                             <a class="nav-link" href="#">آمار</a>
                         </li>
                     </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="جستجو" aria-label="جستجو">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">جستجو</button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -351,6 +356,18 @@
             </div>
         </div>
         <div class="main-content mt-4">
+            <div class="row">
+                <h6 class="col-12 font-weight-bold text-center p-2">تاریخ شمسی</h6>
+                <div class="col-md-6 col-xl-6 col-sm-12">
+                    <input class="form-control mr-sm-2 normal-example" />
+                </div>
+                <div class="col-md-6 col-xl-6 col-sm-12">
+                    <input class="observer-example form-control mr-sm-2" />
+
+                </div>
+            </div>
+        </div>
+        <div class="main-content mt-4">
             <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
                 متون
                 بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
@@ -385,9 +402,11 @@
 <script src="js/progress.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="js/popper.js"></script>
-<script src="js/main.js"></script>
 <script src="js/calendar.js"></script>
 <script src="js/chart.js"></script>
+<script src="js/persian-datepicker.min.js"></script>
+<script src="js/persian-datepicker-date.min.js"></script>
+<script src="js/main.js"></script>
 <script>
 
 </script>

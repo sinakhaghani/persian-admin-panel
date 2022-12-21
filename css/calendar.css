@@ -170,7 +170,7 @@ thead tr {
 tbody tr {
     color: #000; }
 
-tbody td {
+#calendar tbody td {
     width: 14%;
     border-radius: 50%;
     cursor: pointer;
@@ -179,7 +179,7 @@ tbody td {
     transition: all 0.2s ease-in;
     position: relative;
     z-index: 0; }
-tbody td:after {
+#calendar tbody td:after {
     position: absolute;
     top: 50%;
     left: 0;
@@ -203,13 +203,13 @@ tbody td:after {
         -o-transition: none;
         transition: none; } }
 
-tbody td:hover, .selected {
+#calendar > tbody td:hover, .selected {
     color: #fff;
     border: none; }
-tbody td:hover:after, .selected:after {
+#calendar > tbody td:hover:after, .selected:after {
     background: #2a3246; }
 
-tbody td:active {
+#calendar > tbody td:active {
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7); }

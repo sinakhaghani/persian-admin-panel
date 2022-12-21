@@ -17,3 +17,18 @@
   });
 
 })(jQuery);
+
+/* Persina date picker */
+$(document).ready(function (){
+	$('.normal-example').persianDatepicker();
+
+	$('.observer-example').persianDatepicker({
+		observer: true,
+		format: 'YYYY/MM/DD',
+		altField: '.observer-example-alt'
+	});
+
+})
+
+
+/* Persina date picker */
