@@ -217,6 +217,21 @@ a[data-toggle="collapse"] {
   background-image: -webkit-linear-gradient(0deg, #3e64ff 0%, #72c4cd 100%);
   background-image: -ms-linear-gradient(0deg, #3e64ff 0%, #72c4cd 100%);
 }
+.background-theme-2{
+  background-image: -moz-linear-gradient(0deg, #d35400    0%, #f7dc6f  100%);
+  background-image: -webkit-linear-gradient(0deg, #d35400 0%, #f7dc6f 100%);
+  background-image: -ms-linear-gradient(0deg, #d35400 0%, #f7dc6f 100%);
+}
+.background-theme-3{
+  background-image: -moz-linear-gradient(0deg, #196f3d  0%, #76d7c4   100%);
+  background-image: -webkit-linear-gradient(0deg, #196f3d 0%, #76d7c4 100%);
+  background-image: -ms-linear-gradient(0deg, #196f3d 0%, #76d7c4 100%);
+}
+.background-theme-4{
+  background-image: -moz-linear-gradient(0deg, #6c3483   0%, #d7bde2     100%);
+  background-image: -webkit-linear-gradient(0deg, #6c3483 0%, #d7bde2 100%);
+  background-image: -ms-linear-gradient(0deg, #6c3483 0%, #d7bde2 100%);
+}
 .background-color-white{
   background-color: #fff !important;
 }
