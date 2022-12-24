@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>قالب ادمین فارسی | نمودار</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/box-statistics.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/persian-datepicker.min.css">
+
+</head>
+<body dir="rtl">
+
+<div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar" class="active">
+
+        <ul class="list-unstyled position-fixed components mb-5 mt-5">
+            <li class="active">
+                <a href="#"><span class="fa fa-home"></span> داشبورد </a>
+            </li>
+            <li>
+                <a href="#"><span class="fa fa-user"></span> کاربرها </a>
+            </li>
+            <li>
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"> <span
+                        class="fa fa-sticky-note"></span> وبلاگ <i class='fa fa-angle-down arrow-menu'></i> </a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#">صفحه 1</a>
+                    </li>
+                    <li>
+                        <a href="#">صفحه 2</a>
+                    </li>
+                    <li>
+                        <a href="#">صفحه 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><span class="fa fa-cogs"></span> خدمات </a>
+            </li>
+            <li>
+                <a href="#"><span class="fa fa-paper-plane"></span> ارتباط با ما </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                    <i class="fa fa-bars"></i>
+                    <span class="sr-only">منو</span>
+                </button>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">صفحه اصلی </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">درباره ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">پروفایل</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">آمار</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="جستجو" aria-label="جستجو">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">جستجو</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <h2 class="mb-4">داشبورد</h2>
+
+
+
+        <div class="main-content mt-4">
+            <div class="row">
+                <div class="col-md-6 col-xl-6 col-sm-12">
+                    <div class="col-12 shadow p-1 mb-5 bg-white rounded">
+                        <div class="row">
+                            <div class="col-md-12 col-xl-12 col-sm-10">
+                                <canvas id="myChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6 col-xl-6 col-sm-12">
+                    <canvas id="line-chart" class="col-12"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content mt-4">
+            <div class="row">
+                <div class="col-md-6 col-xl-6 col-sm-12">
+                    <canvas id="pie-chart" class="col-12"></canvas>
+                </div>
+                <div class="col-md-6 col-xl-6 col-sm-12">
+                    <canvas id="doughnut-chart" class="col-12"></canvas>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+</script>
+
+</body>
+</html>
