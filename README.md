@@ -1,2 +1,2 @@
 # persian-admin-template
-Persian Admin Template
+Persian Admin Panel
